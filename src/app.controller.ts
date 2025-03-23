@@ -26,8 +26,6 @@ export class AppController {
 	@Post('/teapot')
 	@HttpCode(HttpStatus.I_AM_A_TEAPOT)
 	teapot() {
-		return {
-			teapot: true,
-		};
+		return;
 	}
 }
